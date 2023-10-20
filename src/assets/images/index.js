@@ -13,6 +13,10 @@ import airMaxH from "./airMaxH.png"
 
 import offers from "./offers.png"
 
+import clientOne from "./clientOne.png"
+import clientTwo from "./clientTwo.png"
+import clientThree from "./clientThree.jpg"
+
 export { footerLogo ,
          headerLogo ,
          airMaxMain ,
@@ -25,4 +29,7 @@ export { footerLogo ,
          airMaxG ,
          airMaxH ,
          offers ,
+         clientOne ,
+         clientTwo ,
+         clientThree ,
         };
