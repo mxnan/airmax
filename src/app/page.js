@@ -13,16 +13,18 @@ export default function Home() {
   return (
 <Provider attribute="class">
     <main className='relative mx-auto'>
-    <Navigation />
+      <Navigation />
     <section className='sm:pl-16 pl-8 sm:pr-16 pr-8 sm:pb-24 pb-12'>
-       <Hero />
+      <Hero />
     </section>
     <section className='border-2 sm:px-16 px-8 sm:py-4 py-12'>
       <NewArrivals />
     </section>
-  
+    <section className='sm:px-16 px-8 flex justify-center'>
+      <ShoeOffer />
+    </section>
     
-    <ShoeOffer />
+    
     <ClientRew />
     <Footer />
   

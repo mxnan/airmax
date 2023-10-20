@@ -11,6 +11,8 @@ import airMaxF from "./airMaxF.png"
 import airMaxG from "./airMaxG.png"
 import airMaxH from "./airMaxH.png"
 
+import offers from "./offers.png"
+
 export { footerLogo ,
          headerLogo ,
          airMaxMain ,
@@ -22,4 +24,5 @@ export { footerLogo ,
          airMaxF ,
          airMaxG ,
          airMaxH ,
+         offers ,
         };
