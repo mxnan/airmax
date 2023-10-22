@@ -7,12 +7,15 @@ const ClientRew = () => {
     <section id="reviews"
     className="max-container"
     >
-      <div>
+      <div
+           data-aos ="fade-up" 
+           data-aos-duration="1000"
+      >
         <h3 className="text-center text-5xl font-extrabold">
           <span className="text-[#0077b6]">Client</span>Reviews
         </h3>
 
-        <p className="m-auto mt-4 max-w-lg text-2xl text-center">
+        <p className="m-auto mt-6 max-w-lg text-2xl text-center">
           Listen to authentic tales from our delighted customers recounting 
           their extraordinary encounters with us.
         </p>

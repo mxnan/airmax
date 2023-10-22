@@ -10,7 +10,10 @@ const Hero = () => {
     id="home" 
     className="w-full flex max-sm:space-y-12 xl:flex-row flex-col justify-center min-h-screen gap-10 max-container max-sm:mb-10"
   >
-    <div className="xl:w-[45%] flex flex-col justify-center items-start w-full pt-28">
+    <div className="xl:w-[45%] flex flex-col justify-center items-start w-full pt-28"
+        data-aos ="fade-up" 
+        data-aos-duration="1000"
+    >
        <div>
         <h1 className="mt-10 text-[120px] max-sm:text-[72px] font-extrabold tracking-[-5px] leading-none">
           NIKE AIR
@@ -37,7 +40,10 @@ const Hero = () => {
          </div>
     </div>
     <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-gradient-to-b
-      from-[#f871c6] via-[#dde18a] to-[#12b1c1] bg-hero bg-cover bg-center">
+      from-[#f871c6] via-[#dde18a] to-[#12b1c1] bg-hero bg-cover bg-center"
+      data-aos ="fade-up" 
+      data-aos-duration="1000"
+      >
       <Image 
         src={airMaxMain}
         alt="Hero Image"

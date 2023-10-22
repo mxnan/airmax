@@ -17,16 +17,19 @@ export default function Home() {
     <section className='sm:pl-16 pl-8 sm:pr-16 pr-8 sm:pb-24 pb-12'>
       <Hero />
     </section>
-    <section className='border-2 sm:px-16 px-8 sm:py-4 py-12'>
+    <section className='border-2 border-x-0 sm:px-16 px-8 sm:py-4 py-12'>
       <NewArrivals />
     </section>
-    <section className='sm:px-16 px-8 flex justify-center'>
+    <section className='sm:px-16 px-8 py-8 flex justify-center'>
       <ShoeOffer />
     </section>
+    <section className='border-2 border-x-0 sm:px-16 px-8 sm:py-24 py-12'>
+      <ClientRew />
+    </section>
+    <section className='sm:px-16 px-8 sm:pt-24 pt-12 pb-8'>
+      <Footer />
+    </section>
     
-    
-    <ClientRew />
-    <Footer />
   
     </main>
 </Provider>

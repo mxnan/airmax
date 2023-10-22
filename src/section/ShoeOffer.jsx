@@ -9,7 +9,10 @@ const ShoeOffer = () => {
       className="flex justify-center items-center max-xl:flex-col-reverse 
       gap-10 max-conatiner mt-4"
     >
-      <div className="flex flex-1 flex-col">
+      <div className="flex flex-1 flex-col"
+            data-aos ="fade-up" 
+            data-aos-duration="1000"
+      >
 
         <h2 className="text-4xl font-semibold">
           Best Shoes For
